@@ -125,6 +125,7 @@ const Product = () => {
                 ))}
             </div>
         </div>
+        
     );
 };
 
