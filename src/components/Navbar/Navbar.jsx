@@ -7,16 +7,16 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className='bg-white shadow-sm w-full relative z-40'>
+    <nav className='bg-white w-full relative z-40'>
       {/* Main Container */}
-      <div className='max-w-[1440px] mx-auto px-4 sm:px-6 h-14 flex items-center justify-between'>
+      <div className='max-w-[1440px] mx-auto px-4 sm:px-6 h-12 flex items-center justify-between'>
         
         <div className='hidden md:flex items-center gap-4 lg:gap-6'>
           <ul className='flex items-center gap-4 lg:gap-5'>
             {NavLink.map((link, idx) => (
               <li key={idx}>
                 <a 
-                  className='font-medium text-sm text-gray-700 hover:text-black hover:underline transition-colors duration-200 whitespace-nowrap' 
+                  className='font-medium text-[12px] text-gray-700 hover:text-black hover:underline transition-colors duration-200 whitespace-nowrap' 
                   href={link.href}
                 >
                   {link.label}

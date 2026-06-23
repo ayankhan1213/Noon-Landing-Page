@@ -1,4 +1,5 @@
 import Gaming from '../../assets/aming.avif'
+import GetGameReady from '../../assets/Get Game Ready.gif'
 import Backpack from '../../assets/Backpak.avif'
 import Beauty from '../../assets/Beauty.avif'
 import Camera from '../../assets/Camera.avif'
@@ -7,7 +8,6 @@ import Deals from '../../assets/Deals.avif'
 import Electronics from '../../assets/Electronics.avif'
 import Eyewear from '../../assets/Eyewear.avif'
 import Footwear from '../../assets/Footwear.avif'
-import GetGameReady from '../../assets/Get Game Ready.gif'
 import GiftCard from '../../assets/Gift Card.avif'
 import GlobalStore from '../../assets/Global Store.gif'
 import Grocery from '../../assets/Grocery.avif'
@@ -28,6 +28,7 @@ import WomensFashion from "../../assets/Women's Fashions.avif"
 
 const categoryImages = [
   { image: Gaming },
+  { image: GetGameReady },  
   { image: Backpack },
   { image: Beauty },
   { image: Camera },
@@ -36,7 +37,6 @@ const categoryImages = [
   { image: Electronics },
   { image: Eyewear },
   { image: Footwear },
-  { image: GetGameReady },
   { image: GiftCard },
   { image: GlobalStore },
   { image: Grocery },
