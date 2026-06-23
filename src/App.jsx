@@ -6,6 +6,8 @@ import Categorie from './components/Categories/Categorie'
 import Section from "./components/Section/Section"
 import Product from './components/Product.jsx/Product'
 import Seller from './components/Seller/Seller'
+import Saving from "./components/Saving/Saving"
+import Tech from './components/Tech/Tech'
 const App = () => {
   return (
     <>
@@ -17,6 +19,8 @@ const App = () => {
       <Section />
       <Product />
       <Seller />
+      <Saving />
+      <Tech />
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     </>
   )
