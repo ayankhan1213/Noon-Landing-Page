@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar'
 import Banner from "./components/Banners/Banner"
 import Categorie from './components/Categories/Categorie'
 import Section from "./components/Section/Section"
+import Product from './components/Product.jsx/Product'
 const App = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const App = () => {
       <Banner />
       <Categorie />
       <Section />
+      <Product />
     </>
   )
 }
