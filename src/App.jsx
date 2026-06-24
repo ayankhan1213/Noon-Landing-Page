@@ -8,6 +8,9 @@ import Product from './components/Product.jsx/Product'
 import Seller from './components/Seller/Seller'
 import Saving from "./components/Saving/Saving"
 import Tech from './components/Tech/Tech'
+import TopDeals  from './components/TopDeals/TopDeals'
+import TopRated from "./components/TopRated/TopRated"
+import Footer from './components/Footer/Footer';
 const App = () => {
   return (
     <>
@@ -21,7 +24,9 @@ const App = () => {
       <Seller />
       <Saving />
       <Tech />
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <TopDeals />
+      <TopRated/>
+      <Footer />
     </>
   )
 }
